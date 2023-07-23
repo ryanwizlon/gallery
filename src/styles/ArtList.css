@@ -1,0 +1,25 @@
+.artListStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.artListStyle .artItem {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.artListStyle .artItem:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.artListStyle .artItem img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,42 @@
+.downloadStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.downloadItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.downloadItem:last-child {
+    border-bottom: none;
+}
+
+.downloadTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.downloadButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.downloadButton:hover {
+    background-color: #0056b3;
+}
