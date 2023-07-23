@@ -1,0 +1,47 @@
+.artGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.galleryRoom {
+  perspective: 1000px;
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.artPiece {
+  position: absolute;
+  transform: rotateY(0deg) translateZ(0px);
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  backface-visibility: hidden;
+}
+
+.artPiece img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoPlayer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.digitalDownloads {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
